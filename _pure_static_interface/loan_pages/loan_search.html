@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>&#128214;GABi: Gestor Aberto de Bibliotecas</title>
+    <link href="../stylesheets/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <img id="gabi_logo_pages" src="../images/gabi_logo.png" /></br>
+
+    <a href="../menu/librarian_menu.html"> <button id="back_to_menu" type="button">&#x25c0; | MENU</button></a>
+    
+    <h1>Busca de empréstimo</h1>
+       
+    <div class="container_for_searching">
+    <div class="item search_loan_by_book">
+      <form class="searching" method="get">
+          <legend>Por dados da obra</legend>
+            <input type="text" id="search" name="id_field" placeholder="ID da obra"/><br>
+                <input type="text" name="title_field" placeholder="Título"/><br>
+              
+                <input type="text" name="author_field" placeholder="Autor"/></br>
+              
+              
+                <a href="../loan_pages/loan_result_view_by_book.html"> <button type="button">&#x1F50D;</button></a>
+      </form>
+    </div>
+      
+    <div class="item search_loan_by_user">
+      <form class="searching" method="get" >
+          <legend>Por dados do usuário</legend>
+          <input type="text" list="user_classroom" name="class" placeholder="Turma"/><br>
+            <datalist id="user_classroom">
+                  <option>10</option>
+                  <option>20</option>
+                  <option>30</option>
+                  <option>40</option>
+                  <option>50</option>
+                  <option>60</option>
+                  <option>61</option>
+                  <option>70</option>
+                  <option>71</option>
+                  <option>80</option>
+                  <option>90</option>
+                  <option>111</option>
+                  <option>112</option>
+                  <option>211</option>
+                  <option>311</option>  
+                  <option>Professor</option>
+                  <option>Ex-aluno</option>
+                  <option>Funcionário</option>
+            </datalist>
+            <input  type="text" list="user_name" name="class" placeholder="Nome"/><br>
+            <datalist id="user_name">
+                <option>Adrualdo Siqueira Martins</option>
+                <option>Marilda Martins Boeno</option>
+                <option>Rosenéia Martins</option>
+            </datalist></br>
+
+              <a href="../loan_pages/loan_result_view_by_user.html"> <button type="button">&#x1F50D;</button></a>
+      </form>
+    </div>
+    </div>
+    <p style="font-size: 12px;">Apenas empréstimos em aberto serão buscados. Para outras opções, ver opções de relatórios no menu.</p>
+
+  </body>
+</html>

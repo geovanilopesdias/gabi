@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>&#128214;GABi: Gestor Aberto de Bibliotecas</title>
+    <link href="../stylesheets/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <img id="gabi_logo_pages" src="../images/gabi_logo.png" /><br>
+
+    <a href="../menu/librarian_menu.html"> <button id="back_to_menu" type="button">&#x25c0; | MENU</button></a>
+
+    <h1>Busca por obra</h1>
+    <div class="container_book_searching">
+      <div>
+        <form class="searching" method="get">
+            <legend>Parâmetros de busca</legend>
+              <input type="text" id="search" name="search_field" placeholder="Título"/><br/>
+              <input type="text" id="authors_name_filter" name="authors_name_filter" placeholder="Autores"/><br/>
+              <input  type="text" list="user_name" name="class" placeholder="Coleção"/><br>
+              <datalist id="user_name">
+                  <option>Vagalume</option>
+                  <option>Harry Potter</option>
+                  <option>Terra Média (Tolkien)</option>
+              </datalist>
+              <input type="text" id="cover_color_filter" name="cover_color_filter" placeholder="Cor da capa"/><br/>
+              <a href="../book_pages/book_result_view.html"> <button type="button">&#x1F50D;</button></a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

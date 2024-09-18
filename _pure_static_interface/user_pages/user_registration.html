@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>&#128214;GABi: Gestor Aberto de Bibliotecas</title>
+    <link href="../stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
+
+  <body>
+    <img id="gabi_logo_pages" src="../images/gabi_logo.png" /><br>
+    <a href="../menu/librarian_menu.html"> <button id="back_to_menu" type="button">&#x25c0; | MENU</button></a>
+    <h1>Cadastro de Usuário</h1>
+    <div class="container_user_registration">
+      <form class="registration" action="user_registration_success.html">
+            <input type="text" name="cpf" placeholder="CPF"></br>
+            <input type="text" name="name" placeholder="Nome"></br>
+            <input type="text" list="user_classroom" name="class" placeholder="Turma"/></br>
+            <datalist id="user_classroom">
+                  <option>10</option>
+                  <option>20</option>
+                  <option>30</option>
+                  <option>40</option>
+                  <option>50</option>
+                  <option>60</option>
+                  <option>61</option>
+                  <option>70</option>
+                  <option>71</option>
+                  <option>80</option>
+                  <option>90</option>
+                  <option>111</option>
+                  <option>112</option>
+                  <option>211</option>
+                  <option>311</option>  
+                  <option>Professor</option>
+                  <option>Ex-aluno</option>
+                  <option>Funcionário</option>
+            </datalist>
+            <input type="tel" name="phone" placeholder="Telefone (51.99876.5432)"></br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+  </body>
+</html>

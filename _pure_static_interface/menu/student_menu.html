@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>&#128214;GABi: Gestor Aberto de Bibliotecas</title>
+    <link href="../stylesheets/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <img id="gabi_logo_pages" src="../images/gabi_logo.png" />
+    <h2>Menu Estudante</h2>
+
+    <div class="container_student_menu">
+      <div class="header_student_menu">Sugestões</div>
+      <div class="header_student_menu">Consulta</div>
+
+      <div class="student_menu_recomendations">
+        <ul>
+          <li>
+            <a href="../book_pages/book_visualisation_for_student.html">
+              Senhor dos anéis, O</a>
+            (John Ronald Reuel <b>Tolkien</b>)</li>
+          <li>Harry Potter e o Prisioneiro de Azkaban (Joanne K. <b>Rowling</b>)</li>
+        </ul>
+          
+      </div>
+
+      <div class="student_menu_searching">
+        <form class="searching" method="get">
+          <input type="text" id="search" name="search_field" placeholder="Título"/><br/>
+          <input type="text" id="authors_name_filter" name="authors_name_filter" placeholder="Autores"/><br/>
+          <input type="number" id="year" name="year_filter" placeholder="Ano"/><br/>
+          <input type="number" id="colection_filter" name="colection_filter" placeholder="Coleção"/><br/>
+          <input type="text" id="cover_color_filter" name="cover_color_filter" placeholder="Cor da capa"/><br/>
+          <a href="../book_pages/book_result_view_for_student.html"> <button type="button">&#x1F50D;</button></a>
+        </form>
+      </div>
+    </div>    
+    <a href="../menu/index.html">
+      <button id="back_to_menu" type="button">&#x25c0; | MUDAR USUÁRIO</button></a>
+  </body>
+</html>

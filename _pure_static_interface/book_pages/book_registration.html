@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>&#128214;GABi: Gestor Aberto de Bibliotecas</title>
+    <link href="../stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
+
+  <body>
+    <img id="gabi_logo_pages" src="../images/gabi_logo.png" /><br>
+
+    <a href="../menu/librarian_menu.html"> <button id="back_to_menu" type="button">&#x25c0; | MENU</button></a>
+    
+    <h1>Cadastro de obra</h1>
+    <form class="registration" action="book_registration_success.html">
+      <div class="container_registration">
+      
+      <div>
+        <legend>Códigos de referência</legend>
+          <input type="text" name="id" placeholder="ID da obra"></br>
+          
+          <input type="number" id="number_of_copies" name="copies" placeholder="Nº de cópias"></br>
+          <label><input id="sequential_checker" type="checkbox"> NÃO cadastrar IDs sequencialmente</label>        
+          <p>Atenção: se desmarcada a opção acima, as cópias serão cadastradas com IDs sequenciais ao primeiro código inserido acima.</p>
+    
+          <input type="text" name="isbn" placeholder="ISBN"></br>
+          <input type="text" name="ddc" placeholder="CDD">
+      </div>
+  
+      <div>
+        <legend>Informações gerais</legend>
+        <input type="text" name="title" placeholder="Título"></br>
+        <input type="text" name="author" placeholder="Autores (João Silva,Carlos Souza)"></br>
+        <p>Obs.: O código Cutter-Sanborn é gerado pelo sistema.</p>
+        <input type="text" name="publisher" placeholder="Editora"></br>
+
+        <input  type="text" list="user_name" name="class" placeholder="Coleção"/><br>
+        <datalist id="user_name">
+            <option>Vagalume</option>
+            <option>Harry Potter</option>
+            <option>Terra Média (Tolkien)</option>
+        </datalist>
+        
+        <input type="number" name="year" placeholder="Ano da obra"></br>
+        <input type="number" name="pages" placeholder="Número de páginas"></br>
+        <input type="text" name="cover_color" placeholder="Cores da capa (azul,bege)"></br>
+  
+        <input type="submit" value="Cadastrar &#x1F44D;">
+        
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>&#128214;GABi: Gestor Aberto de Bibliotecas</title>
+    <link href="../stylesheets/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <img id="gabi_logo_pages" src="../images/gabi_logo.png" /><br>
+
+    <a href="../menu/librarian_menu.html"> <button id="back_to_menu" type="button">&#x25c0; | MENU</button></a>
+    
+    <h2>Visualização de usuário</h2>
+    <div class="container_for_visualization">
+      <div class="data_display">
+        <legend>Dados do usuário cadastrado</legend>
+        <p>Nome: Adriano Gonçalves</p>
+        <p>Turma: 111</p>
+        <p>CPF: 021.790.180-88</p>
+        <p>Débito atual: R$ 15,00</p>
+      </div>
+      <div class="table_book_copies">
+        <table class="results">
+          <caption>Empréstimos em aberto</caption><br>
+          <tr>
+            <th>ID da Obra</th>
+            <th>Título</th>
+            <th>Autores</th>
+            <th>Retirada</th>
+            <th>Situação</th>
+          </tr>
+          <tr>
+            <td>7065</td>
+            <td>Harry Potter e a Pedra Filosofal</td>
+            <td>Joanne K. Rowling</td>
+            <td>12/05/24</td>
+            <td>No prazo</td>
+          </tr>
+          <tr>
+            <td>123</td>
+            <td><a href="../book_pages/book_visualisation.html">Senhor dos anéis, O</a></td>
+            <td>John Ronald Reuel Tolkien</td>
+            <td>22/04/24</td>
+            <td>Atrasado (23 dias)</td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="5">
+                Apenas empréstimos <b>em aberto</b>  são exibidos; consulte outras opções de relatórios no menu.
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        </div>
+    </div>
+  </body>
+</html>
