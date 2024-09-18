@@ -1,0 +1,55 @@
+[
+  
+  {
+    "id": "707",
+    "isbn": "9788533615168",
+    "ddc": "823.91",
+    "title": "o senhor dos aneis",
+    "subtitle": "",
+    "authors": ["john ronald reuel tolkien"],
+    "publisher": "martins fontes",
+    "cover_colors": ["branco", "verde", "preto"],
+    "type": "Literature",
+    "status": "Available",
+    "publication_year": 2001
+  },
+  {
+    "id": "708",
+    "isbn": "9788595084742",
+    "ddc": "823",
+    "title": "o hobbit",
+    "subtitle": "",
+    "authors": ["john ronald reuel tolkien"],
+    "publisher": "harper collins",
+    "cover_colors": ["branco", "verde", "preto", "azul"],
+    "type": "Literature",
+    "status": "Available",
+    "publication_year": 2019
+  },
+  {
+    "id": "709",
+    "isbn": "9788532530011",
+    "ddc": "028.5",
+    "title": "hary potter e as relíquias da morte",
+    "subtitle": "",
+    "authors": ["joanne rowling"],
+    "publisher": "rocco",
+    "cover_colors": ["laranja", "roxo", "violeta"],
+    "type": "Literature",
+    "status": "Available",
+    "publication_year": 2015
+  },
+  {
+    "id": "710",
+    "isbn": "9788544001455",
+    "ddc": "809.915",
+    "title": "frankestein | o médico e o monstro | drácula",
+    "subtitle": "",
+    "authors": ["mary wollstonecraft shelley", "robert louis stevenson", "abraham bram stoker"],
+    "publisher": "martin claret",
+    "cover_colors": ["preto", "amarelo"],
+    "type": "Literature",
+    "status": "Available",
+    "publication_year": 2017
+  }
+]
